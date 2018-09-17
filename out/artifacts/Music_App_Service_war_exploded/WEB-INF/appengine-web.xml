@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+  <threadsafe>true</threadsafe>
+  <runtime>java8</runtime>
+    <application>musicservice-03334122812</application>
+    <module>default</module>
+    <version>uno</version>
+  <system-properties>
+    <property name="cloudsql" value="jdbc:mysql://google/music_data?useSSL=false&amp;cloudSqlInstance=musicapp-03334122812:us-central1:music-data&amp;socketFactory=com.google.cloud.sql.mysql.SocketFactory&amp;user=root&amp;password=panzer123" />
+      <property name="cloudsql-local" value="jdbc:mysql://104.197.239.27:3306/music_data?user=root&amp;password=panzer123"/>
+  </system-properties>
+</appengine-web-app>
